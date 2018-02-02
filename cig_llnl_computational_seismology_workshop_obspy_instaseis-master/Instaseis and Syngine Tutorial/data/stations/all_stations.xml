@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.0" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris">
+ <Source>IRIS-DMC</Source>
+ <Sender>IRIS-DMC</Sender>
+ <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.27</Module>
+ <ModuleURI>http://service.iris.edu/fdsnws/station/1/query?network=IU&amp;latitude=30.0&amp;longitude=-110.0&amp;maxradius=20.0&amp;format=xml</ModuleURI>
+ <Created>2017-09-15T20:29:52</Created>
+ <Network code="IU" startDate="1988-01-01T00:00:00" endDate="2500-12-31T23:59:59" restrictedStatus="open">
+  <Description>Global Seismograph Network (GSN - IRIS/USGS)</Description>
+  <TotalNumberStations>270</TotalNumberStations>
+  <SelectedNumberStations>26</SelectedNumberStations>
+  <Station code="ANMO" startDate="1989-08-29T00:00:00" endDate="1995-07-14T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_FDSN,_GSN-BROADBAND,.CEUSN-CONTRIB,_FDSN-ALL,_REALTIME,.UNRESTRICTED,_GSN">
+   <Comment>
+    <Value>Time may be 1 minute slow.</Value>
+    <BeginEffectiveTime>1991-01-31T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1991-02-16T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Time correction does not include leap second.</Value>
+    <BeginEffectiveTime>1992-06-30T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1993-03-22T18:50:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>TEST DATA:  Calibration, and testing in progress.</Value>
+    <BeginEffectiveTime>1993-02-08T23:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1993-02-09T17:50:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>34.9459</Latitude>
+   <Longitude>-106.4572</Longitude>
+   <Elevation>1850.0</Elevation>
+   <Site>
+    <Name>Albuquerque, New Mexico, USA</Name>
+   </Site>
+   <CreationDate>1989-08-29T00:00:00</CreationDate>
+   <TotalNumberChannels>121</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="ANMO" startDate="1995-07-14T00:00:00" endDate="2000-10-19T16:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_FDSN,_GSN-BROADBAND,.CEUSN-CONTRIB,_FDSN-ALL,_REALTIME,.UNRESTRICTED,_GSN,.TEST">
+   <Comment>
+    <Value>Time Uncertain.</Value>
+    <BeginEffectiveTime>1996-05-20T19:20:00</BeginEffectiveTime>
+    <EndEffectiveTime>1996-05-24T14:13:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>34.9459</Latitude>
+   <Longitude>-106.4572</Longitude>
+   <Elevation>1850.0</Elevation>
+   <Site>
+    <Name>Albuquerque, New Mexico, USA</Name>
+   </Site>
+   <CreationDate>1989-08-29T00:00:00</CreationDate>
+   <TotalNumberChannels>172</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="ANMO" startDate="2000-10-19T16:00:00" endDate="2002-11-19T21:07:00" restrictedStatus="open" iris:alternateNetworkCodes="_FDSN,_GSN-BROADBAND,.CEUSN-CONTRIB,_FDSN-ALL,_REALTIME,.UNRESTRICTED,_GSN,.TEST">
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2001-04-25T14:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2001-04-29T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2002-11-19T15:12:00</BeginEffectiveTime>
+    <EndEffectiveTime>2002-11-19T23:43:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2002-11-19T15:12:00</BeginEffectiveTime>
+    <EndEffectiveTime>2002-11-22T19:35:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>34.9502</Latitude>
+   <Longitude>-106.4602</Longitude>
+   <Elevation>1839.0</Elevation>
+   <Site>
+    <Name>Albuquerque, New Mexico, USA</Name>
+   </Site>
+   <CreationDate>1989-08-29T00:00:00</CreationDate>
+   <TotalNumberChannels>77</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="ANMO" startDate="2002-11-19T21:07:00" endDate="2008-06-30T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_FDSN-ALL,.UNRESTRICTED,_GSN,.TEST,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2002-11-19T15:12:00</BeginEffectiveTime>
+    <EndEffectiveTime>2002-11-19T23:43:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>TEST DATA:  Calibration, and testing in progress.</Value>
+    <BeginEffectiveTime>2002-11-27T16:15:00</BeginEffectiveTime>
+    <EndEffectiveTime>2002-12-03T01:41:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2002-11-19T15:12:00</BeginEffectiveTime>
+    <EndEffectiveTime>2002-11-22T19:35:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>34.9459</Latitude>
+   <Longitude>-106.4572</Longitude>
+   <Elevation>1820.0</Elevation>
+   <Site>
+    <Name>Albuquerque, New Mexico, USA</Name>
+   </Site>
+   <CreationDate>1989-08-29T00:00:00</CreationDate>
+   <TotalNumberChannels>64</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="ANMO" startDate="2008-06-30T00:00:00" endDate="2008-06-30T20:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_FDSN-ALL,.UNRESTRICTED,_GSN,.TEST,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Latitude>34.9459</Latitude>
+   <Longitude>-106.4572</Longitude>
+   <Elevation>1820.0</Elevation>
+   <Site>
+    <Name>Albuquerque, New Mexico, USA</Name>
+   </Site>
+   <CreationDate>1989-08-29T00:00:00</CreationDate>
+   <TotalNumberChannels>38</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="ANMO" startDate="2008-06-30T20:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_CEUSN,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_US-TA,_FDSN-ALL,.UNRESTRICTED,_GSN,.TEST,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Latitude>34.9459</Latitude>
+   <Longitude>-106.4572</Longitude>
+   <Elevation>1820.0</Elevation>
+   <Site>
+    <Name>Albuquerque, New Mexico, USA</Name>
+   </Site>
+   <CreationDate>1989-08-29T00:00:00</CreationDate>
+   <TotalNumberChannels>170</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="CCM" startDate="1989-07-28T00:00:00" endDate="1996-06-07T21:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_STS-1,_FDSN,_GSN-BROADBAND,.CEUSN-CONTRIB,_FDSN-ALL,_REALTIME,.UNRESTRICTED,_GSN">
+   <Comment>
+    <Value>Time may be in error by several seconds.</Value>
+    <BeginEffectiveTime>1991-06-25T14:08:00</BeginEffectiveTime>
+    <EndEffectiveTime>1991-06-25T14:26:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Time may be in error by several seconds.</Value>
+    <BeginEffectiveTime>1993-04-14T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1993-04-21T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Timing IS in error, as clock is unlocked.</Value>
+    <BeginEffectiveTime>1993-04-09T09:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1993-04-21T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>1994-07-06T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1994-07-14T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>38.0557</Latitude>
+   <Longitude>-91.2446</Longitude>
+   <Elevation>222.0</Elevation>
+   <Site>
+    <Name>Cathedral Cave, Missouri, USA</Name>
+   </Site>
+   <CreationDate>1989-07-28T00:00:00</CreationDate>
+   <TotalNumberChannels>69</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="CCM" startDate="1996-06-07T21:00:00" endDate="2011-07-14T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Clock is Unlocked.</Value>
+    <BeginEffectiveTime>1999-03-26T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>4000-01-01T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Clock is Unlocked.</Value>
+    <BeginEffectiveTime>1999-03-28T06:30:00</BeginEffectiveTime>
+    <EndEffectiveTime>1999-05-22T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Clock is Unlocked.</Value>
+    <BeginEffectiveTime>1999-04-03T15:30:00</BeginEffectiveTime>
+    <EndEffectiveTime>1999-05-19T23:57:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Clock Unlocked.</Value>
+    <BeginEffectiveTime>2001-02-05T20:42:00</BeginEffectiveTime>
+    <EndEffectiveTime>2001-02-11T23:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Clock Unlocked.</Value>
+    <BeginEffectiveTime>2001-02-16T23:45:00</BeginEffectiveTime>
+    <EndEffectiveTime>2001-02-23T02:50:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Clock Unlocked.</Value>
+    <BeginEffectiveTime>2001-02-24T04:50:00</BeginEffectiveTime>
+    <EndEffectiveTime>2001-02-24T22:20:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Clock Unlocked.</Value>
+    <BeginEffectiveTime>2001-02-28T22:50:00</BeginEffectiveTime>
+    <EndEffectiveTime>2001-03-02T17:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Clock Unlocked.</Value>
+    <BeginEffectiveTime>2001-03-10T23:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2001-03-12T16:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Clock Unlocked.</Value>
+    <BeginEffectiveTime>2001-03-16T02:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2001-03-16T18:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Timing MAY be in error, as GPS system is not operating consistently.</Value>
+    <BeginEffectiveTime>2003-12-05T16:39:00</BeginEffectiveTime>
+    <EndEffectiveTime>2003-12-18T09:40:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Timing MAY be in error, as clock is unlocked.</Value>
+    <BeginEffectiveTime>2004-11-11T20:06:00</BeginEffectiveTime>
+    <EndEffectiveTime>2004-11-16T15:47:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Timing IS in error, as digitizer timing system operating incorrectly.</Value>
+    <BeginEffectiveTime>2006-03-31T18:30:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Timing IS in error, as digitizer timing system operating incorrectly.</Value>
+    <BeginEffectiveTime>2006-03-31T18:30:00</BeginEffectiveTime>
+    <EndEffectiveTime>2007-01-11T20:42:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>38.0557</Latitude>
+   <Longitude>-91.2446</Longitude>
+   <Elevation>222.0</Elevation>
+   <Site>
+    <Name>Cathedral Cave, Missouri, USA</Name>
+   </Site>
+   <CreationDate>1989-07-28T00:00:00</CreationDate>
+   <TotalNumberChannels>47</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="CCM" startDate="2011-07-14T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_CEUSN,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_US-TA,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Clock is Unlocked.</Value>
+    <BeginEffectiveTime>1999-03-26T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>4000-01-01T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Timing IS in error, as digitizer timing system operating incorrectly.</Value>
+    <BeginEffectiveTime>2006-03-31T18:30:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>38.0557</Latitude>
+   <Longitude>-91.2446</Longitude>
+   <Elevation>222.0</Elevation>
+   <Site>
+    <Name>Cathedral Cave, Missouri, USA</Name>
+   </Site>
+   <CreationDate>1989-07-28T00:00:00</CreationDate>
+   <TotalNumberChannels>92</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="COR" startDate="1989-10-26T00:00:00" endDate="1995-05-13T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_STS-1,_FDSN,_GSN-BROADBAND,_FDSN-ALL,_REALTIME,.UNRESTRICTED,_GSN">
+   <Comment>
+    <Value>TEST DATA:  Calibration, and testing in progress.</Value>
+    <BeginEffectiveTime>1989-10-27T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1989-10-29T04:07:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Time is 1 minute fast.</Value>
+    <BeginEffectiveTime>1992-12-30T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1993-01-20T17:30:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>44.5855</Latitude>
+   <Longitude>-123.3046</Longitude>
+   <Elevation>110.0</Elevation>
+   <Site>
+    <Name>Corvallis, Oregon, USA</Name>
+   </Site>
+   <CreationDate>1989-10-26T00:00:00</CreationDate>
+   <TotalNumberChannels>18</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="COR" startDate="1995-05-13T00:00:00" endDate="2009-09-26T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_FDSN-ALL,.UNRESTRICTED,_GSN,_CASCADIA,.GREG,_US-ALL,_ANSS-BB,_REALTIME">
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2003-01-30T21:33:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2003-01-30T21:33:00</BeginEffectiveTime>
+    <EndEffectiveTime>2003-02-01T00:52:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>TEST DATA:  Calibration, and testing in progress.</Value>
+    <BeginEffectiveTime>2003-02-25T22:13:00</BeginEffectiveTime>
+    <EndEffectiveTime>2003-02-25T23:53:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2003-03-04T17:58:00</BeginEffectiveTime>
+    <EndEffectiveTime>2003-03-06T10:40:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Timing IS in error, as clock is unlocked.</Value>
+    <BeginEffectiveTime>2003-03-21T02:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2003-03-27T15:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Time Uncertain.</Value>
+    <BeginEffectiveTime>2004-01-21T04:05:00</BeginEffectiveTime>
+    <EndEffectiveTime>2004-01-21T19:24:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Time Uncertain.</Value>
+    <BeginEffectiveTime>2006-02-27T21:49:00</BeginEffectiveTime>
+    <EndEffectiveTime>2006-02-28T20:45:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>44.5855</Latitude>
+   <Longitude>-123.3046</Longitude>
+   <Elevation>110.0</Elevation>
+   <Site>
+    <Name>Corvallis, Oregon, USA</Name>
+   </Site>
+   <CreationDate>1989-10-26T00:00:00</CreationDate>
+   <TotalNumberChannels>74</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="COR" startDate="2009-09-26T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_FDSN-ALL,.UNRESTRICTED,_GSN,_CASCADIA,.GREG,_US-ALL,_ANSS-BB,_REALTIME">
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2003-01-30T21:33:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>44.5855</Latitude>
+   <Longitude>-123.3046</Longitude>
+   <Elevation>110.0</Elevation>
+   <Site>
+    <Name>Corvallis, Oregon, USA</Name>
+   </Site>
+   <CreationDate>1989-10-26T00:00:00</CreationDate>
+   <TotalNumberChannels>143</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="HKT" startDate="1995-07-11T00:00:00" endDate="2008-09-12T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Timing IS in error, as clock is unlocked.</Value>
+    <BeginEffectiveTime>2004-01-16T18:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2004-02-18T16:55:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station is down.</Value>
+    <BeginEffectiveTime>2005-04-05T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station is down.</Value>
+    <BeginEffectiveTime>2005-04-05T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2006-01-13T00:01:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2007-02-05T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>29.9618</Latitude>
+   <Longitude>-95.8384</Longitude>
+   <Elevation>-413.0</Elevation>
+   <Site>
+    <Name>Hockley, Texas</Name>
+   </Site>
+   <CreationDate>1995-07-11T00:00:00</CreationDate>
+   <TotalNumberChannels>65</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="HKT" startDate="2008-09-12T00:00:00" endDate="2011-09-27T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Station is down.</Value>
+    <BeginEffectiveTime>2005-04-05T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2007-02-05T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>29.9618</Latitude>
+   <Longitude>-95.8384</Longitude>
+   <Elevation>-413.0</Elevation>
+   <Site>
+    <Name>Hockley, Texas</Name>
+   </Site>
+   <CreationDate>1995-07-11T00:00:00</CreationDate>
+   <TotalNumberChannels>12</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="HKT" startDate="2011-09-27T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_CEUSN,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Station is down.</Value>
+    <BeginEffectiveTime>2005-04-05T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2007-02-05T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>29.9618</Latitude>
+   <Longitude>-95.8384</Longitude>
+   <Elevation>-413.0</Elevation>
+   <Site>
+    <Name>Hockley, Texas</Name>
+   </Site>
+   <CreationDate>1995-07-11T00:00:00</CreationDate>
+   <TotalNumberChannels>59</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="RAIO" startDate="1995-08-30T00:00:00" endDate="1997-05-08T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_FDSN-ALL,.UNRESTRICTED">
+   <Latitude>46.0403</Latitude>
+   <Longitude>-122.8851</Longitude>
+   <Elevation>1.0</Elevation>
+   <Site>
+    <Name>Rainier, Oregon, USA</Name>
+   </Site>
+   <CreationDate>1995-08-30T00:00:00</CreationDate>
+   <TotalNumberChannels>20</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="RAIO" startDate="1997-05-08T00:00:00" endDate="1999-01-04T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_FDSN-ALL,.UNRESTRICTED">
+   <Latitude>46.0403</Latitude>
+   <Longitude>-122.8851</Longitude>
+   <Elevation>11.0</Elevation>
+   <Site>
+    <Name>Rainier, Oregon, USA</Name>
+   </Site>
+   <CreationDate>1995-08-30T00:00:00</CreationDate>
+   <TotalNumberChannels>12</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="RSSD" startDate="1999-09-24T00:00:00" endDate="2009-09-08T20:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_US-TA,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2000-08-15T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2000-08-15T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2000-08-22T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2005-03-23T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2005-03-28T17:20:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2000-08-15T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2000-08-29T01:49:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>44.1212</Latitude>
+   <Longitude>-104.0359</Longitude>
+   <Elevation>2090.0</Elevation>
+   <Site>
+    <Name>Black Hills, South Dakota, USA</Name>
+   </Site>
+   <CreationDate>1999-09-24T00:00:00</CreationDate>
+   <TotalNumberChannels>72</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="RSSD" startDate="2009-09-09T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_CEUSN,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_US-TA,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2000-08-15T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>44.1212</Latitude>
+   <Longitude>-104.0359</Longitude>
+   <Elevation>2090.0</Elevation>
+   <Site>
+    <Name>Black Hills, South Dakota, USA</Name>
+   </Site>
+   <CreationDate>1999-09-24T00:00:00</CreationDate>
+   <TotalNumberChannels>51</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="SLBS" startDate="2008-12-15T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_GSN-BROADBAND,_LACSN,.SPACIFIC,_CARIBE-EWS,_FDSN-ALL,_REALTIME,.UNRESTRICTED,_GSN">
+   <Latitude>23.6858</Latitude>
+   <Longitude>-109.9443</Longitude>
+   <Elevation>825.0</Elevation>
+   <Site>
+    <Name>Sierra la Laguna Baja California Sur, Mexico</Name>
+   </Site>
+   <CreationDate>2008-12-15T00:00:00</CreationDate>
+   <TotalNumberChannels>81</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="TUC" startDate="1992-06-13T00:00:00" endDate="1997-11-06T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_STS-1,_FDSN,_GSN-BROADBAND,_FDSN-ALL,_REALTIME,.UNRESTRICTED,_GSN">
+   <Comment>
+    <Value>Time may be 1 minute fast.</Value>
+    <BeginEffectiveTime>1992-06-13T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1992-09-08T16:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>TEST DATA:  Calibration, and testing in progress.</Value>
+    <BeginEffectiveTime>1992-06-14T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1992-06-16T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Data does not contain leap second.</Value>
+    <BeginEffectiveTime>1994-07-01T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>4000-01-01T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Data does not contain leap second.</Value>
+    <BeginEffectiveTime>1994-07-01T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Time is 1 minute fast.</Value>
+    <BeginEffectiveTime>1992-06-13T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1992-09-08T16:00:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>32.3098</Latitude>
+   <Longitude>-110.7847</Longitude>
+   <Elevation>910.0</Elevation>
+   <Site>
+    <Name>Tucson, Arizona</Name>
+   </Site>
+   <CreationDate>1992-06-13T00:00:00</CreationDate>
+   <TotalNumberChannels>17</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="TUC" startDate="1997-11-06T00:00:00" endDate="2009-05-28T19:35:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_US-TA,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,_REALTIME">
+   <Comment>
+    <Value>Data does not contain leap second.</Value>
+    <BeginEffectiveTime>1994-07-01T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>4000-01-01T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Data does not contain leap second.</Value>
+    <BeginEffectiveTime>1994-07-01T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station Maintenance.  Tests may be in progress.</Value>
+    <BeginEffectiveTime>2007-01-15T16:20:00</BeginEffectiveTime>
+    <EndEffectiveTime>2007-01-18T22:10:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>32.3098</Latitude>
+   <Longitude>-110.7847</Longitude>
+   <Elevation>910.0</Elevation>
+   <Site>
+    <Name>Tucson, Arizona</Name>
+   </Site>
+   <CreationDate>1992-06-13T00:00:00</CreationDate>
+   <TotalNumberChannels>42</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="TUC" startDate="2009-05-28T19:40:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_FDSN,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_US-TA,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,_REALTIME">
+   <Comment>
+    <Value>Data does not contain leap second.</Value>
+    <BeginEffectiveTime>1994-07-01T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>4000-01-01T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Data does not contain leap second.</Value>
+    <BeginEffectiveTime>1994-07-01T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>32.3098</Latitude>
+   <Longitude>-110.7847</Longitude>
+   <Elevation>910.0</Elevation>
+   <Site>
+    <Name>Tucson, Arizona</Name>
+   </Site>
+   <CreationDate>1992-06-13T00:00:00</CreationDate>
+   <TotalNumberChannels>213</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="WVT" startDate="1997-04-16T00:00:00" endDate="2008-09-17T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Station located in high noise background area.</Value>
+    <BeginEffectiveTime>1997-04-16T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>4000-01-01T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station located in high noise background area.</Value>
+    <BeginEffectiveTime>1997-04-16T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Intrinsic Quanterra Timing Problem.</Value>
+    <BeginEffectiveTime>1997-04-16T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>1999-09-29T21:40:00</EndEffectiveTime>
+   </Comment>
+   <Latitude>36.1297</Latitude>
+   <Longitude>-87.83</Longitude>
+   <Elevation>170.0</Elevation>
+   <Site>
+    <Name>Waverly, Tennessee, USA</Name>
+   </Site>
+   <CreationDate>1997-04-16T00:00:00</CreationDate>
+   <TotalNumberChannels>38</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="WVT" startDate="2008-09-17T00:00:00" endDate="2011-01-23T00:00:00" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_STS-1,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Station located in high noise background area.</Value>
+    <BeginEffectiveTime>1997-04-16T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>4000-01-01T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station located in high noise background area.</Value>
+    <BeginEffectiveTime>1997-04-16T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>36.1297</Latitude>
+   <Longitude>-87.83</Longitude>
+   <Elevation>170.0</Elevation>
+   <Site>
+    <Name>Waverly, Tennessee, USA</Name>
+   </Site>
+   <CreationDate>1997-04-16T00:00:00</CreationDate>
+   <TotalNumberChannels>9</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+  <Station code="WVT" startDate="2011-01-23T00:00:00" endDate="2599-12-31T23:59:59" restrictedStatus="open" iris:alternateNetworkCodes="_US-REF,_CEUSN,_STS-1,_GSN-BROADBAND,.EARTHSCOPE,_CARIBE-EWS,_US-TA,_FDSN-ALL,.UNRESTRICTED,_GSN,.GREG,_US-ALL,_ANSS-BB,.CEUSN-CONTRIB,_REALTIME">
+   <Comment>
+    <Value>Station located in high noise background area.</Value>
+    <BeginEffectiveTime>1997-04-16T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>4000-01-01T00:00:00</EndEffectiveTime>
+   </Comment>
+   <Comment>
+    <Value>Station located in high noise background area.</Value>
+    <BeginEffectiveTime>1997-04-16T00:00:00</BeginEffectiveTime>
+    <EndEffectiveTime>2599-12-31T23:59:59</EndEffectiveTime>
+   </Comment>
+   <Latitude>36.1297</Latitude>
+   <Longitude>-87.83</Longitude>
+   <Elevation>170.0</Elevation>
+   <Site>
+    <Name>Waverly, Tennessee, USA</Name>
+   </Site>
+   <CreationDate>1997-04-16T00:00:00</CreationDate>
+   <TotalNumberChannels>56</TotalNumberChannels>
+   <SelectedNumberChannels>0</SelectedNumberChannels>
+  </Station>
+ </Network>
+</FDSNStationXML>
